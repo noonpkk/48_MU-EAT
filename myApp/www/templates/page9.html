@@ -1,0 +1,38 @@
+<ion-view title="สมชายข้าวแกง" id="page9">
+  <ion-content padding="true" class="has-header">
+    <p>
+
+    </p>
+    <div id="page9-markdown2" style="text-align:center;" class="show-list-numbers-and-dots">
+      <p style="color:#000000;font-size:16px;">
+        <strong>ข้าว</strong>
+      </p>
+    </div>
+    <form id="page9-form9" class="list">
+      <ion-checkbox id="page9-checkbox1"ng-model="a"value="10" >ข้าวสวยธรรมดา 10 บาท</ion-checkbox>
+      <ion-checkbox id="page9-checkbox3"ng-model="b"value="10">ข้าวหอมมะลิ 10 บาท</ion-checkbox>
+      <ion-checkbox id="page9-checkbox2"ng-model="c"value="10">ข้าวกล้อง 10 บาท</ion-checkbox>
+    </form>
+    <div id="page9-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">
+      <p style="color:#000000;font-size:16px;">
+        <strong>รายการอาหาร</strong>
+      </p>
+    </div>
+    <form id="page9-form11" class="list">
+      <ion-checkbox id="page9-checkbox4"ng-model="d"value="10">ใข่ลูกเขย 10 บาท</ion-checkbox>
+      <ion-checkbox id="page9-checkbox5"ng-model="e"value="10">แกงไก่ 10 บาท</ion-checkbox>
+      <ion-checkbox id="page9-checkbox6"ng-model="f"value="10">พะโล้ 10 บาท</ion-checkbox>
+      <ion-checkbox id="page9-checkbox7"ng-model="g"value="10">ใข่ดาว 10 บาท</ion-checkbox>
+      <ion-checkbox id="page9-checkbox8"ng-model="h"value="10">ผัดวุ้นเส้น10 บาท</ion-checkbox>
+      <ion-checkbox id="page9-checkbox9"ng-model="i"value="10">ใข่น้ำ 10 บาท</ion-checkbox>
+      <ion-checkbox id="page9-checkbox10"ng-model="j"value="10">ผัดกระเพรา 10 บาท</ion-checkbox>
+      <ion-checkbox id="page9-checkbox11"ng-model="k"value="10">ผัดผักบุ้ง 10 บาท</ion-checkbox>
+      <div id="page9-markdown4" style="text-align:center;" class="show-list-numbers-and-dots">
+        <p style="color:#000000;">
+          <strong> ราคา = {{ (a+b+c+d+e+f+g+h+i+j+k)*10 }} บาท </strong>
+        </p>
+      </div>
+      <a ui-sref="menu.orderedMenu" id="page9-button7" style="font-weight:600;" class="button button-calm  button-block">สั่งอาหาร</a>
+    </form>
+  </ion-content>
+</ion-view>

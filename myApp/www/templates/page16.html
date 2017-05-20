@@ -1,0 +1,33 @@
+<ion-view title="ร้านน้ำ" id="page16">
+  <ion-content padding="true" class="has-header">
+    <p>
+
+    </p>
+    <form id="page16-form17" class="list">
+      <div id="page16-markdown15" style="text-align:center;" class="show-list-numbers-and-dots">
+        <p style="color:#000000;font-size:16px;">
+          <strong>รายการอาหาร</strong>
+        </p>
+      </div>
+
+      <ion-checkbox id="page16-checkbox34"ng-model="a">กาแฟดำ 30 บาท</ion-checkbox>
+      <ion-checkbox id="page16-checkbox35"ng-model="b"value="a">โอวัลติน 30 บาท</ion-checkbox>
+      <ion-checkbox id="page16-checkbox47"ng-model="c"value="b">นมชมพู 30 บาท</ion-checkbox>
+      <ion-checkbox id="page16-checkbox48"ng-model="d"value="10">นมสด 30 บาท</ion-checkbox>
+      <ion-checkbox id="page16-checkbox49"ng-model="e"value="10">สตอร์เบอรี่ 30 บาท</ion-checkbox>
+      <ion-checkbox id="page16-checkbox50"ng-model="f"value="10">ชาเขียว 30 บาท</ion-checkbox>
+      <ion-checkbox id="page16-checkbox51"ng-model="g"value="10">โกโก้ 30 บาท</ion-checkbox>
+      <ion-checkbox id="page16-checkbox52"ng-model="h"value={{10}}>กีวี่ 30 บาท</ion-checkbox>
+      <ion-checkbox id="page16-checkbox53"ng-model="i"value={{10}}>เลมอน 30 บาท</ion-checkbox>
+      <ion-checkbox id="page16-checkbox54"ng-model="j"value="10">ชาเย็น 30 บาท</ion-checkbox>
+      </div>
+    <form id="page16-form18" class="list">
+      <div id="page16-markdown13" style="text-align:center;" class="show-list-numbers-and-dots">
+        <p style="color:#000000;">
+          <strong > ราคา = {{ (a+b+c+d+ef+g+h+i+j)*30 }}บาท </strong>
+        </p>
+      </div>
+      <a ui-sref="menu.orderedMenu" id="page16-button10" style="font-weight:600;" class="button button-calm  button-block">สั่งอาหาร</a>
+    </form>
+  </ion-content>
+</ion-view>

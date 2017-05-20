@@ -1,0 +1,29 @@
+<ion-view title="ร้านส้มตำ" id="page18">
+  <ion-content padding="true" class="has-header">
+    <p>
+
+    </p>
+    <div id="page18-markdown16" style="text-align:center;" class="show-list-numbers-and-dots">
+      <p style="color:#000000;font-size:16px;">
+        <strong>รายการอาหาร</strong>
+      </p>
+    </div>
+    <form id="page18-form19" class="list">
+      <ion-checkbox id="page18-checkbox59"ng-model="a"value="5">ตำไทย 40 บาท</ion-checkbox>
+      <ion-checkbox id="page18-checkbox60"ng-model="b"value="5">ตำปู 40 บาท</ion-checkbox>
+      <ion-checkbox id="page18-checkbox61"ng-model="c"value="5">ตำถาด 40 บาท</ion-checkbox>
+      <ion-checkbox id="page18-checkbox64"ng-model="d"value="5">คอหมูย่าง 40 บาท</ion-checkbox>
+      <ion-checkbox id="page18-checkbox62"ng-model="e"value="5">ใส้ย่าง 40 บาท</ion-checkbox>
+      <ion-checkbox id="page18-checkbox65"ng-model="f"value="5">ตับหวาน 40 บาท</ion-checkbox>
+      <ion-checkbox id="page18-checkbox63"ng-model="g"value="5">ไก่ย่าง 40 บาท</ion-checkbox>
+    </form>
+    <form id="page18-form20" class="list">
+      <div id="page18-markdown17" style="text-align:center;" class="show-list-numbers-and-dots">
+        <p style="color:#000000;">
+          <strong> ราคา = {{ (a+b+c+d+e+f+g)*40 }} บาท </strong>
+        </p>
+      </div>
+      <a ui-sref="menu.orderedMenu" id="page18-button11" style="font-weight:600;" class="button button-calm  button-block">สั่งอาหาร</a>
+    </form>
+  </ion-content>
+</ion-view>

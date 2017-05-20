@@ -1,0 +1,28 @@
+<ion-view title="ร้านไก่ทอด" id="page20">
+  <ion-content padding="true" class="has-header">
+    <p>
+
+    </p>
+    <div id="page20-markdown20" style="text-align:center;" class="show-list-numbers-and-dots">
+      <p style="color:#000000;font-size:16px;">
+        <strong>รายการอาหาร</strong>
+      </p>
+    </div>
+    <form id="page20-form23" class="list">
+      <ion-checkbox id="page20-checkbox73"ng-model="a"value="5">สะโพกไก่ทอด 30 บาท</ion-checkbox>
+      <ion-checkbox id="page20-checkbox83"ng-model="b"value="5">ปีกไก่ทอด 30 บาท</ion-checkbox>
+      <ion-checkbox id="page20-checkbox81"ng-model="c"value="5">เอ็นไก่ทอด 30 บาท</ion-checkbox>
+      <ion-checkbox id="page20-checkbox80"ng-model="d"value="5">หนังไก่ทอด 30 บาท</ion-checkbox>
+      <ion-checkbox id="page20-checkbox79"ng-model="e"value="5">เครื่องในไก่ทอด 30 บาท</ion-checkbox>
+      <ion-checkbox id="page20-checkbox82"ng-model="f"value="5">ข้าวเหนียว 10 บาท</ion-checkbox>
+    </form>
+    <form id="page20-form24" class="list">
+      <div id="page20-markdown21" style="text-align:center;" class="show-list-numbers-and-dots">
+        <p style="color:#000000;">
+          <strong> ราคา = {{ (a+b+c+d+e+f)*30 }} บาท </strong>
+        </p>
+      </div>
+      <a ui-sref="menu.orderedMenu" id="page20-button13" style="font-weight:600;" class="button button-calm  button-block">สั่งอาหาร</a>
+    </form>
+  </ion-content>
+</ion-view>

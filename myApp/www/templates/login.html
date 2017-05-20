@@ -1,0 +1,20 @@
+<ion-view title="Login" id="page5">
+  <ion-content padding="true" ng-controller="restaurantCtrl" style="background: url(img/BCh8fTNxRvuYAYlTbLM9_PRINCE-MAHIDOL-HALL2C-MAHIDOL-UNIVERSITY-201507231212151.jpg) no-repeat center;background-size:cover;" class="has-header">
+    <div class="spacer" style="width: 300px; height: 89px;"></div>
+    <form id="login-form8" class="list">
+      <ion-list id="login-list3">
+        <label class="item item-input" id="login-input9">
+          <span class="input-label">Username</span>
+          <input type="text" ng-model="username" placeholder="John1234">
+        </label>
+        <label class="item item-input" id="login-input10">
+          <span class="input-label">Password</span>
+          <input type="password" ng-model="password" placeholder="password">
+        </label>
+      </ion-list>
+      <div class="spacer" style="height: 40px;"></div>
+      <a id="login-button4" ng-click="submit()" ui-sref="menu.restaurent()"class="button button-calm button-block button-outline">Log in</a>
+      <a ui-sref="menu.signUp()" id="login-button5" style="color:#FFFFFF;border-radius:7px 7px 7px 7px;" class="button button-calm button-block"> create an account</a>
+    </form>
+  </ion-content>
+</ion-view>

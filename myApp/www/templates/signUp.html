@@ -1,0 +1,26 @@
+ <ion-view title="Sign up" id="page4">
+  <ion-content ng-controller="signUpCtrl" padding="true" style="background: url(img/NcwjVUhORc4EHCndRnr1_PRINCE-MAHIDOL-HALL2C-MAHIDOL-UNIVERSITY-201507231212151.jpg) no-repeat center;background-size:cover;" class="has-header">
+    <form id="signUp-form7" name="r" class="list">
+      <div class="spacer" style="width: 300px; height: 107px;"></div>
+      <ion-list id="signUp-list2">
+        <label class="item item-input" id="signUp-input6">
+        <span class="input-label">Name </span>
+          <input type="text"  placeholder="John" ng-model="name">
+        </label>
+        <label class="item item-input" id="signUp-input11">
+          <span class="input-label">Username </span>
+          <input type="text" placeholder="John1234" ng-model="username">
+        </label>
+        <label class="item item-input" id="signUp-input7">
+          <span class="input-label">Email </span>
+          <input type="text" placeholder="john@ABC.com" ng-model="email">
+        </label>
+        <label class="item item-input" id="signUp-input8">
+          <span class="input-label">Password </span>
+          <input type="text" placeholder="password" ng-model="password">
+        </label>
+      </ion-list>
+      <button id="signUp-button3" class="button button-calm button-block" ui-sref="menu.login()" ng-click="insert()">Sign up</button>
+    </form>
+  </ion-content>
+</ion-view>
